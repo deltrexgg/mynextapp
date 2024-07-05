@@ -1,9 +1,11 @@
-import React from 'react'
-
+"use client"
+ 
+import React, { useState } from 'react'
 function dashboard() {
+
   return (
     <div>
-      <h1 className='header'>Hello World</h1>
+      <h1>Dashboard</h1>
     </div>
   )
 }
